@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="936229F197BD5A8DA60BC0B1058413DC09A570B8677FB43C822BA17A0F6AACB25749795F679F87AD92DD7E557226BD7CD81DC925E58AAB6A61BE045E39008988" Timestamp="1DBA7E5E69C414C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.15.0.49319" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="9.8.1.49152" Version="9.15.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.15.0.49319" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.15.0.49319" FeatureSetName="Lumberjack Core" Name="http://www.ni.com/Lumberjack.Core" OldestCompatibleVersion="9.14.0.49152" Version="9.14.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.15.0.49319" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.15.0.49319" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.15.0.49319" Name="FlexLogger" Version="25.0.0.0" />
+	</SourceModelFeatureSet>
+	<Screen Id="26ce4ddfa91a4fd5b8be3385a140510b" xmlns="http://www.ni.com/Lumberjack.Core">
+		<ScreenSurface Height="[float]1600" Id="2b98640ede9d4351bc309e3b9546c89c" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+			<HighSpeedGraph BaseName="[string]High Speed Graph" Height="[float]400" Id="ce7118bf8a9140d69b64c342669a488e" Label="[UIModel]ff7553296d1041799ba7d99e87d36406" Left="[float]25" MinWidth="[float]230" PlotAreaMargin="[SMThickness]66,26,44,27" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" Top="[float]61" Width="[float]600">
+				<HighSpeedGraphAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="ba3e720012274901a9a385eea3848328" Label="[string]X" LabelVisibility="[SMVisibility]Collapsed" MajorDivisions="[UIModel]be86d79360544b90bbc7a99f025862b4" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+					<RangeLabeledDivisions Id="be86d79360544b90bbc7a99f025862b4" Mode="[RangeDivisionsMode]Count: 2" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<p.LabelPresenter Kind="LVTime" Format="#T" />
+					</RangeLabeledDivisions>
+				</HighSpeedGraphAxis>
+				<HmiGraphPlot Channel="[string]cDAQ1Mod6/ai0" HorizontalScale="[UIModel]ba3e720012274901a9a385eea3848328" Id="246391b8df27481a9ddb56bf2f8be731" IsDefaultPlot="[bool]False" Label="[string]cDAQ1Mod6/ai0" VerticalScale="[UIModel]61ed879ea56541769750d368507e8bb8">
+					<PlotRenderer Id="67457e9a463c472cb9207be916586dfa" LineStroke="[SMSolidColorBrush]#ffea4225" LineThickness="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiGraphPlot>
+				<HmiGraphPlot Channel="[string]cDAQ1Mod6/ai1" HorizontalScale="[UIModel]ba3e720012274901a9a385eea3848328" Id="b0d8b781319848ff98b0b115428003f3" IsDefaultPlot="[bool]False" Label="[string]cDAQ1Mod6/ai1" VerticalScale="[UIModel]61ed879ea56541769750d368507e8bb8">
+					<PlotRenderer Id="39935236bf5f423590d6680c0bafa588" LineStroke="[SMSolidColorBrush]#ffe6cd00" LineThickness="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiGraphPlot>
+				<HmiGraphPlot Channel="[string]cDAQ1Mod6/ai2" HorizontalScale="[UIModel]ba3e720012274901a9a385eea3848328" Id="4fe72c500843441a9073a2cbb7d03141" IsDefaultPlot="[bool]False" Label="[string]cDAQ1Mod6/ai2" VerticalScale="[UIModel]61ed879ea56541769750d368507e8bb8">
+					<PlotRenderer Id="be6621ceb73b4b7798b5a68c15b8a15d" LineStroke="[SMSolidColorBrush]#ff5ac59d" LineThickness="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiGraphPlot>
+				<HmiGraphPlot Channel="[string]cDAQ1Mod6/ai3" HorizontalScale="[UIModel]ba3e720012274901a9a385eea3848328" Id="45ad30845f7c418b8ae2cab7cbc3ace4" IsDefaultPlot="[bool]False" Label="[string]cDAQ1Mod6/ai3" VerticalScale="[UIModel]61ed879ea56541769750d368507e8bb8">
+					<PlotRenderer Id="53aee66b9088488b84829e2c00fce2a0" LineStroke="[SMSolidColorBrush]#ff1f3145" LineThickness="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiGraphPlot>
+				<HighSpeedGraphAxis Adjuster="[RangeAdjuster]GrowLoosely" Id="61ed879ea56541769750d368507e8bb8" Label="[string]V" MajorDivisions="[UIModel]9d73c509196048ff95b2b976be45f16c" Orientation="[SMOrientation]Vertical" Range="[IRange]6.396396396396398, 10, System.Double" Visibility="[SMVisibility]Visible">
+					<RangeLabeledDivisions Id="9d73c509196048ff95b2b976be45f16c" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" />
+					</RangeLabeledDivisions>
+				</HighSpeedGraphAxis>
+			</HighSpeedGraph>
+			<HmiChartPlotLegend Graph="[UIModel]ce7118bf8a9140d69b64c342669a488e" Height="[float]106" Id="b4f92a232fa14612a325ec0e72528526" Left="[float]632" Top="[float]61" />
+			<HmiChartCursorLegend Graph="[UIModel]ce7118bf8a9140d69b64c342669a488e" Height="[float]80" Id="a9df25268b754003bde38aed99b31fa8" Left="[float]30" MinHeight="[float]80" Top="[float]490" Visible="[bool]False" Width="[float]316" />
+			<HmiGraphStatisticsLegend Graph="[UIModel]ce7118bf8a9140d69b64c342669a488e" Height="[float]40" Id="c68be3ed464d459a8b936bbb7a1f5f33" Left="[float]350" MinHeight="[float]40" MinWidth="[float]100" Top="[float]490" Visible="[bool]False" />
+			<HmiChartScaleLegend Graph="[UIModel]ce7118bf8a9140d69b64c342669a488e" Height="[float]52" Id="eb141f38ba2446378d0dc6e3e6b96561" Left="[float]550" Top="[float]468" Visible="[bool]False" />
+			<CompositeGraphTools BackgroundColor="[SMSolidColorBrush]#fff7f7f7" Graph="[UIModel]ce7118bf8a9140d69b64c342669a488e" Height="[float]26" Id="eea9a92519ec4a84a853d78c70a555c4" Left="[float]395" OffsetX="[float]370" OffsetY="[float]3" Top="[float]64" Width="[float]184">
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Hold" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]b4645a7c428143f790e602c0a621bb4b" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="19e074b2ed4e4a3f9e5b227d217b4c80" IsMomentary="[bool]False" Label="[UIModel]5ebf78fe9dde4c1f847f0c7d9c3e75c8" Left="[float]2" PartName="[string]PART_HoldButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="b4645a7c428143f790e602c0a621bb4b" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/GraphTools_Pause.png" Stretch="[SMStretch]None" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Horizontal Zoom" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]62bd1f9009a145a184aabba1a485937a" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="d987f5e9a0f34adca48b80060aa16f70" IsMomentary="[bool]False" Label="[UIModel]23e788edf4ba4ce29a5ed5ba9ffa1269" Left="[float]33" PartName="[string]PART_ZoomHorizontalButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="62bd1f9009a145a184aabba1a485937a" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/ZoomHorizontal.png" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Vertical Zoom" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]3606b15a207e446795d49d13bc395c3f" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="9247cbd881a94434aad19ef16a1250c2" IsMomentary="[bool]False" Label="[UIModel]7b79ba83e1934917be0349a79bbcccc2" Left="[float]63" PartName="[string]PART_ZoomVerticalButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="3606b15a207e446795d49d13bc395c3f" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/ZoomVertical.png" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Pan" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]75b6111a06424ba78d6bbcf9a3ddcbe6" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="d470579dc234fd9b5fd2910f5b5709c" IsMomentary="[bool]False" Label="[UIModel]2997e7eafd2249fdaf3a9934815294aa" Left="[float]93" PartName="[string]PART_PanButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="75b6111a06424ba78d6bbcf9a3ddcbe6" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/ZoomPan.png" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Reset" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]f70b8d8bcd0948a8a203361c5d2165de" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="f44bcc1d8aaf42658ada35f383c3dd44" IsMomentary="[bool]True" Label="[UIModel]1434185bb9414ce89359eb37b4446525" Left="[float]123" PartName="[string]PART_ResetButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="f70b8d8bcd0948a8a203361c5d2165de" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/ZoomExtents.png" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Map" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]39f143a505804396aac032cb0c5e8fc1" Enabled="[bool]True" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="d007eeaca3e14f68bab16d84eb3bda9c" IsMomentary="[bool]False" Label="[UIModel]7186ae694b19418c8d2138d762c894c1" Left="[float]154" PartName="[string]PART_MappingButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="39f143a505804396aac032cb0c5e8fc1" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/DataSource.png" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<Label Id="5ebf78fe9dde4c1f847f0c7d9c3e75c8" LabelOwner="[UIModel]19e074b2ed4e4a3f9e5b227d217b4c80" Left="[float]2" Text="[string]Hold" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				<Label Id="23e788edf4ba4ce29a5ed5ba9ffa1269" LabelOwner="[UIModel]d987f5e9a0f34adca48b80060aa16f70" Left="[float]33" Text="[string]Horizontal Zoom" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				<Label Id="7b79ba83e1934917be0349a79bbcccc2" LabelOwner="[UIModel]9247cbd881a94434aad19ef16a1250c2" Left="[float]63" Text="[string]Vertical Zoom" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				<Label Id="2997e7eafd2249fdaf3a9934815294aa" LabelOwner="[UIModel]d470579dc234fd9b5fd2910f5b5709c" Left="[float]93" Text="[string]Pan" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				<Label Id="1434185bb9414ce89359eb37b4446525" LabelOwner="[UIModel]f44bcc1d8aaf42658ada35f383c3dd44" Left="[float]123" Text="[string]Reset" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				<Label Id="7186ae694b19418c8d2138d762c894c1" LabelOwner="[UIModel]d007eeaca3e14f68bab16d84eb3bda9c" Left="[float]154" Text="[string]Map" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			</CompositeGraphTools>
+			<Label Height="[float]16" Id="ff7553296d1041799ba7d99e87d36406" LabelOwner="[UIModel]ce7118bf8a9140d69b64c342669a488e" Left="[float]25" Text="[string]High Speed Graph" Top="[float]41" Width="[float]97" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText BaseName="[string]Numeric" Channel="[string]cDAQ1Mod4/ao0" Height="[float]24" Id="eb05aa30dc7743cc98ef8ddc30798a26" Label="[UIModel]5d5e3bec6ce64c7999c8445322632d4b" Left="[float]37" Maximum="[double]10" Minimum="[double]-10" Top="[float]511" UnitAnnotation="[string]V" ValueFormatter="[string]LV:G5" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="5d5e3bec6ce64c7999c8445322632d4b" LabelOwner="[UIModel]eb05aa30dc7743cc98ef8ddc30798a26" Left="[float]37" Text="[string]ao0" Top="[float]491" Width="[float]20" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelLED BaseName="[string]Round LED" Channel="[string]cDAQ1Mod7/port0/line0" ContentVisibility="[Visibility]Collapsed" FalseContent="[string]Off" Height="[float]30" Id="6fe1c8c64722427d9de820c38d2edcab" IsReadOnly="[bool]True" Label="[UIModel]d9afbb9466204aad8e8cd95fa9f5209f" Left="[float]196" MinHeight="[float]20" MinWidth="[float]20" Shape="[LEDShape]Round" Top="[float]508" TrueContent="[string]On" Width="[float]30" />
+			<Label Height="[float]16" Id="d9afbb9466204aad8e8cd95fa9f5209f" LabelOwner="[UIModel]6fe1c8c64722427d9de820c38d2edcab" Left="[float]196" Text="[string]line0" Top="[float]488" Width="[float]25" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText BaseName="[string]Numeric" Height="[float]24" Id="eee12ba81c814a97ac31a02e5dd0ecec" IsReadOnly="[bool]True" Label="[UIModel]26940bf77f4d424bb2dca302dcf9ccf9" Left="[float]836" Maximum="[double]Infinity" Minimum="[double]-Infinity" Top="[float]193" ValueFormatter="[string]LV:G5" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="26940bf77f4d424bb2dca302dcf9ccf9" LabelOwner="[UIModel]eee12ba81c814a97ac31a02e5dd0ecec" Left="[float]836" Text="[string]Numeric" Top="[float]173" Width="[float]45" xmlns="http://www.ni.com/PanelCommon" />
+			<FlexLoggerActionButton ActionType="[int]3" BaseName="[string]Text Action Button" Content="[string]Button" Height="[float]30" Id="8aebcd112d65445f94a13cce3efe1084" IncludeInCapture="[bool]False" IsMomentary="[bool]True" Label="[UIModel]16531fc3afb048a3addcbea12ae4f3b3" Left="[float]1019" Shape="[ButtonShape]Square" Top="[float]350" Width="[float]75" xmlns="http://www.ni.com/Lumberjack.Core" />
+			<Label Height="[float]16" Id="16531fc3afb048a3addcbea12ae4f3b3" LabelOwner="[UIModel]8aebcd112d65445f94a13cce3efe1084" Left="[float]1019" Text="[string]Text Action Button" Top="[float]330" Width="[float]97" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelLED BaseName="[string]Round LED" ContentVisibility="[Visibility]Collapsed" FalseContent="[string]Off" Height="[float]30" Id="555cf039ff954adc9ec679e3d835c693" IsReadOnly="[bool]True" Label="[UIModel]2f9be632afac4e31ac590645c04d093e" Left="[float]686" MinHeight="[float]20" MinWidth="[float]20" Shape="[LEDShape]Round" Top="[float]334" TrueContent="[string]On" Width="[float]30" />
+			<Label Height="[float]16" Id="2f9be632afac4e31ac590645c04d093e" LabelOwner="[UIModel]555cf039ff954adc9ec679e3d835c693" Left="[float]686" Text="[string]Round LED" Top="[float]314" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText BaseName="[string]Numeric" Height="[float]24" Id="2e2b666bd2d1493bb3f60016feda72bd" IsReadOnly="[bool]True" Label="[UIModel]dd20e0b1359d468299df076d0d3a96d3" Left="[float]565" Top="[float]580" ValueFormatter="[string]LV:G5" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="dd20e0b1359d468299df076d0d3a96d3" LabelOwner="[UIModel]2e2b666bd2d1493bb3f60016feda72bd" Left="[float]565" Text="[string]Numeric_2" Top="[float]560" Width="[float]56" xmlns="http://www.ni.com/PanelCommon" />
+		</ScreenSurface>
+	</Screen>
+</SourceFile>

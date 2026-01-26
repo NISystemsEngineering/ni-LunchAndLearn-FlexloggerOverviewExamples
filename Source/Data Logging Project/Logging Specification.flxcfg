@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F7959585C930ED9AC556171AD7EF1E4923A6B5F365FFF1FF15801DD129403283CB7E678D08C06C3370A6517F2574BECBA7E120E0D2F0CF6FC95E43E7BFE71489" Timestamp="1DBA4FB0EEF9356" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.15.0.49319" FeatureSetName="Lumberjack Core" Name="http://www.ni.com/Lumberjack.Core" OldestCompatibleVersion="9.14.0.49152" Version="9.14.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.15.0.49319" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.15.0.49319" Name="FlexLogger" Version="25.0.0.0" />
+	</SourceModelFeatureSet>
+	<LoggingSpecification xmlns="http://www.ni.com/Lumberjack.Core">
+		<LoggingConfigurationModel Id="bfe8481530e3441fa04a9bc1c2d7b396">
+			<ProcessingElementModelOwner Id="9647898f174b4e8ab868ac5d6ccf7bbe">
+				<TriggeredLoggingProvider Id="2d492dce75df4789ba217c5bb72f070b" IsSlowLoggingOutsideTriggerWindowChecked="True" IsTriggeringEnabled="True" ModelTypeId="[string]CBA104E4-2D21-4AC7-915B-D7DCC1243DCE" StartChannelLeadingTime="1" StartChannelThresholdValue="5" StartChannelValueChangeType="RiseAboveValue" StartConditionType="ChannelValueChange" StartSelectedChannel="cDAQ1Mod6/ai0" StartTime="2025-04-03T17:34:09.79885649999999999997142563490371003354084677994251251220703125-04:00" />
+				<TdmsLoggingProvider DataReductionStrategy="Decimate" Id="aeffb4990fea4c1abaf7fcf1a9f7a7a6" LogFileBackupPath="&quot;C:\\Users\\deaton\\Documents\\FlexLogger\\data\\backups&quot;" LogFileBasePath="&quot;C:\\Users\\deaton\\Documents\\FlexLogger\\data&quot;" ModelTypeId="[string]59163356-411F-436B-A6B6-82FB1EFB19E1">
+					<UserDefinedMetadata Id="c9edd68b697d4e81b8935fc2551fb416">
+						<UserDefinedMetadataItem DataType="String" Id="43c3fab211504db2b537a1177f5fe2b7" IsPromptOnStartActivated="True" Name="Operator">
+							<p.Value>deaton</p.Value>
+						</UserDefinedMetadataItem>
+						<UserDefinedMetadataItem DataType="String" Id="21c00c06ea574918ba0c2060acaa1a2f" IsPromptOnStartActivated="True" Name="DUT">
+							<p.Value>""</p.Value>
+						</UserDefinedMetadataItem>
+						<UserDefinedMetadataItem DataType="String" Id="28f223b90075495a831bf77f47eec7c9" IsPromptOnStartActivated="True" Name="Test Location">
+							<p.Value>""</p.Value>
+						</UserDefinedMetadataItem>
+					</UserDefinedMetadata>
+				</TdmsLoggingProvider>
+			</ProcessingElementModelOwner>
+		</LoggingConfigurationModel>
+	</LoggingSpecification>
+</SourceFile>
